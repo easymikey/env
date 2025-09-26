@@ -1,0 +1,19 @@
+[user]
+	name = Mikhail Avdeev
+	email = easybymikey@gmail.com
+[credential]
+	helper = cache
+[alias]
+	cleanup = !git branch --merged | egrep -v \"(^\\*|master|main|dev)\" | xargs git branch -d
+[core]
+	editor = nvim
+	pager = less
+[pull]
+	rebase = false
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[push]
+	autoSetupRemote = true
