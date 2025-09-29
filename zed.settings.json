@@ -6,7 +6,7 @@
 // To see all of Zed's default settings without changing your
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
-//  ln  zed.settings.json .config/zed/settings.json
+//  commaned `ln  zed.settings.json .config/zed/settings.json`
 {
   "inlay_hints": {
     "enabled": false,
@@ -18,13 +18,21 @@
     "edit_debounce_ms": 700,
     "scroll_debounce_ms": 50
   },
+  "show_whitespaces": "boundary",
   "buffer_font_features": {
     "calt": 0
   },
   "project_panel": {
     "hide_gitignore": true
   },
-  "buffer_font_family": ".ZedMono",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "restore_on_startup": "last_workspace",
+  "restore_on_file_reopen": true,
+  "close_on_file_delete": true,
+  "buffer_font_family": "Lilex",
   "vim_mode": true,
   "icon_theme": "Catppuccin Frappé",
   "ui_font_size": 15,
