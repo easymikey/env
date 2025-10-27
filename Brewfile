@@ -1,17 +1,35 @@
 tap "oven-sh/bun"
 brew "biome"
+brew "docker"
 brew "mas"
 brew "neovim"
+brew "node"
+brew "tree"
 brew "zig"
 brew "zsh-autosuggestions"
 brew "oven-sh/bun/bun"
 cask "amneziavpn"
+cask "claude-code"
+cask "docker-desktop"
+cask "flutter"
 cask "font-lilex"
-cask "google-chrome@canary"
+cask "google-chrome"
+cask "lookaway"
 cask "raycast"
+cask "visual-studio-code"
 cask "zed"
-mas "Things", id: 904280696
 mas "Bear", id: 1091189122
 mas "KeyKey", id: 1035137927
 mas "Pixelmator Pro", id: 1289583905
+mas "Things", id: 904280696
 mas "Xcode", id: 497799835
+vscode "biomejs.biome"
+vscode "catppuccin.catppuccin-vsc-icons"
+vscode "christian-kohler.path-intellisense"
+vscode "dart-code.dart-code"
+vscode "dart-code.flutter"
+vscode "eamodio.gitlens"
+vscode "ionutvmi.path-autocomplete"
+vscode "luanpotter.dart-import"
+vscode "mvllow.rose-pine"
+vscode "vscodevim.vim"

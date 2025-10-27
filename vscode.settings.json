@@ -1,0 +1,75 @@
+{
+	"debug.console.fontSize": 13,
+	"editor.fontFamily": "Lilex",
+	"editor.fontSize": 13,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"editor.semanticTokenColorCustomizations": {
+		"[Rosé Pine (no italics)]": {
+			"enabled": true,
+			"rules": {
+				"parameter": "#CAC9DF",
+				"property": "#CAC9DF",
+				"variable.readonly": "#CAC9DF",
+				"function": "#ebbcba"
+			}
+		},
+		"enabled": true
+	},
+	"editor.tokenColorCustomizations": {
+		"[Rosé Pine (no italics)]": {
+			"textMateRules": [
+				{
+					"scope": [
+						"entity.other.attribute-name.tsx",
+						"entity.other.attribute-name.html"
+					],
+					"settings": {
+						"foreground": "#9e9ab5"
+					}
+				},
+				{
+					"scope": "entity.name.tag",
+					"settings": {
+						"foreground": "#ebbcba"
+					}
+				},
+				{
+					"scope": "constant.numeric",
+					"settings": {
+						"foreground": "#9CCFD8"
+					}
+				}
+			]
+		}
+	},
+	"scm.inputFontSize": 13,
+	"security.workspace.trust.untrustedFiles": "open",
+	"terminal.integrated.fontSize": 13,
+	"vim.enableNeovim": true,
+	"workbench.colorTheme": "Rosé Pine (no italics)",
+	"workbench.iconTheme": "catppuccin-mocha",
+	"workbench.startupEditor": "none",
+	"explorer.confirmDragAndDrop": false,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.selectionHighlight": false,
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	},
+	"explorer.confirmDelete": false,
+	"dart.hotReloadOnSave": "all",
+	"dart.inlayHints": false,
+	"dart.showGettersInDebugViews": false,
+	"dart.closingLabels": false,
+	"git.openRepositoryInParentFolders": "never",
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.bracketPairsHorizontal": true,
+	"dart.debugExternalPackageLibraries": true,
+	"dart.debugSdkLibraries": false,
+	"dart.openDevTools": "flutter"
+}
